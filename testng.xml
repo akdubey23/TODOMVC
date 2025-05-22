@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TodoMVC Ordered Suite">
+
+    <test name="Ordered Execution">
+        <classes>
+            <class name="main.Addstodoitem"/>
+            <class name="main.ViewTodoTest"/>
+            <class name="main.EditTodoTest"/>
+            <class name="main.CompleteTodoTest"/>
+            <class name="main.FilterTodos"/>
+            <class name="main.ClearCompletedTest"/>
+            <class name="main.DeleteTodoTest"/>
+        </classes>
+    </test>
+
+</suite>
